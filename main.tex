@@ -1,18 +1,10 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
 
 \documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 \moderncvstyle{oldstyle}                           % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -20,26 +12,15 @@
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
 
 % personal data
 \name{Akash}{K S}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
 \address{D.No.5/165,Kothapalli,}{Sevaganapalli(Po),Hosur}{Krishnagiri(Dt),Tamil Nadu,Pin-635103.}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+919489970889}                  % optional, remove / comment the line if not wanted
-\email{k.s.akash345@gmail.com}                               % optional, remove / comment the line if not wanted
-\photo[96pt][0.6pt]{akash}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-
-
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
+\phone[mobile]{+919489970889}                   % optional, remove / 
+\email{k.s.akash345@gmail.com}                               
+\photo[96pt][0.6pt]{akash}                      
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -47,7 +28,6 @@
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
-
 \section{Objective}
 \makeatletter
 To work for an organisation that has learning and challenging environment with oppurtunities to utilise my knowledge and skills for the betterment of the the organisation and so of mine.
@@ -63,6 +43,7 @@ To work for an organisation that has learning and challenging environment with o
      \hline
      SSC & Govt.High school,Kothapalli & 2013 & 93.8\\
      \hline
+     
 \end{tabular}
 
 
@@ -71,13 +52,11 @@ To work for an organisation that has learning and challenging environment with o
     \setlength\itemindent{5cm}\item Brain Controlled Bot
 \end{enumerate}
 
-
 \section{Technical Skills}
 \cvlistitem{C}
 \cvlistitem{C++}
 \cvlistitem{Basics of Python}
 \cvlistitem{Basics of AtmelStudio}
-
 
 \section{Soft Skills}
 \begin{enumerate}
@@ -94,12 +73,13 @@ To work for an organisation that has learning and challenging environment with o
  \cvlistitem{Course on "Open Source Programming with Raspberry Pi 3" in Kongu Engineering College}
  \cvlistitem{Course on "NS3 programming for Absolute Beginners" in Kongu Engineering College}
  \cvlistitem{Participated and won 1st prize in theme "Feeder Weeder" of eYRC 2018.}
-
+ 
 \section{Languages}
 \cvlistitem{English}
 \cvlistitem{Telugu}
 \cvlistitem{Tamil}
 \cvlistitem{Kannada}
+
 
 \section{Areas of Interest}
 \cvlistitem{Machine Learning}
@@ -118,16 +98,14 @@ To work for an organisation that has learning and challenging environment with o
 \cvlistitem{Dr.G.Murugesan M.E,M.S,Ph.D,
             Professor and Head,Department of ECE,Kongu Engineering College,Perundurai.email:gmece@kongu.ac.in, Mobile:+919865273774}
 
-
 \section{Declaration}
 \makeatletter
 I do hereby declare that the above information is true to the best of my knowledge.
 \date{April 19, 2018}
 
+\makelettertitle
+
 \makeletterclosing
 
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+
 \end{document}
-
-
-%% end of file `template.tex'.
